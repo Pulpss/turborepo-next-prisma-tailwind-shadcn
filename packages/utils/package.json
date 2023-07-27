@@ -1,0 +1,29 @@
+{
+    "name": "utils",
+    "version": "0.0.0",
+    "sideEffects": false,
+    "license": "MIT",
+    "private": true,
+    "main": "./dist/index.js",
+    "module": "./dist/index.mjs",
+    "types": "./dist/index.d.mts",
+    "files": [
+        "dist/**"
+    ],
+    "scripts": {
+        "build": "tsup",
+        "dev": "tsup --watch"
+    },
+    "devDependencies": {
+        "clsx": "^2.0.0",
+        "eslint": "^8.34.0",
+        "eslint-config-custom": "*",
+        "tailwind-merge": "^1.10.0",
+        "config": "*",
+        "tsup": "^7.1.0",
+        "typescript": "^4.9.4"
+    },
+    "publishConfig": {
+      "access": "public"
+    }
+}
