@@ -1,7 +1,5 @@
 # turborepo-next-prisma-tailwind-shadcn
 
-This is an official starter Turborepo.
-
 ## Using this example
 
 Run the following command:
